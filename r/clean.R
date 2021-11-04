@@ -39,3 +39,15 @@ geocoded_exists <- file.exists(here("data", "incidents.rds"))
 if(!geocoded_exists) source(here("r", "geocode.R"))
 cat(green("The geocoded file already exists in the data folder.\n
           Not running the cleaning script."))
+
+
+# Save the address file for python output
+incidents %>%
+    transmute(complete_address = paste(address, city_county, state, sep = ", ")) %>%
+    write_csv(here("data", "address.csv"))
+
+# Run python
+
+# create a tibble from the output JSON file 
+mgeo_out <- fromJSON(here("output_addresses_geocoded.json")) %>% 
+    as_tibble()
