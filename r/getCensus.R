@@ -1,6 +1,7 @@
 # Get census data
+library(tidycensus)
+
 Sys.getenv("CENSUS_API_KEY")
-Sys.setenv(CENSUS_KEY="YOURKEYHERE")
 variables_acs <- load_variables(2019, "acs5", cache = TRUE) # to store the variables in R studio 
 pop <- get_acs(geography = "tract", 
               variables=c(popWhi="C02003_003",
