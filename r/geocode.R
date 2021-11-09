@@ -1,58 +1,36 @@
 # Geocoding the incidents file
 library(here)
 library(tidyverse)
-library(censusxy)
-library(crayon)
+# ggmap 
+if(!requireNamespace("devtools")) install.packages("devtools")
+devtools::install_github("dkahle/ggmap")
+library(ggmap) 
+library(tigris)
 
 # Get data without geocode
 gva_renamed <- read_rds(here("data", "incidents_nogeocode.rds"))
 
-# get benchmark
-bench <- cxy_benchmarks()
-bench_name <- bench$benchmarkName[1]
+# Google Map API to clean the address
+# Register with google 
+register_google(key = Sys.getenv("GOOGLE_GEO_KEY"))
+# Limit the query to 100 for now
+gva_renamed_temp <- gva_renamed %>%
+    head(100)
 
-# Our geocoding settings
-cxy_geocode_current <- function(data){
-    cxy_geocode(data, 
-                street = "address",
-                city = "city_county",
-                state = "state",
-                return = "geographies",
-                vintage = "Current_Current",
-                parallel = 10)
-}
+# Create a string to feed to Google Map API
+gva_renamed_temp <- gva_renamed_temp %>%
+    mutate(full_address = paste(address, city_county, state, sep = ", "))
 
-# Add census tracts using censusxy::
-incidents_geo_raw <- gva_renamed %>% 
-    cxy_geocode_current() %>% 
-    rename_with(~paste0(., "_raw"))
-
-# Remove "block of" from addresses & add 1 to street starting with alphabetic
-incidents_geo_clean <- gva_renamed %>% 
-    mutate(address = str_remove(address, "block of ")) %>% 
-    mutate(address = case_when(
-        str_starts(address, "^\\p{Alphabetic}") ~ paste0("1 ", address),
-        TRUE ~ address)) %>% 
-    cxy_geocode_current()
-
-# Test
-# We want to test if (a) removing "block of" or (b) adding 1 to streets would 
-# change the existing address estimation. It is fine if we add information.
-cat(green("Running test to see if these modifications to address do not modify existing records."))
-
-both <- incidents_geo_raw %>%
-    bind_cols(incidents_geo_clean) %>%
-    as_tibble() %>%
-    select(starts_with("cxy_block_id"))
-
-did_modify <- both %>% drop_na() %>%
-    mutate(modified = cxy_block_id != cxy_block_id) %>%
-    summarise(sum(modified)) %>% 
-    as.logical()
-
-# Show error message for the test
-if(did_modify) cat(red("Modifications detected---check the combined dataset."))
-if(!did_modify) cat(green("No modification detected---we are good to go"))
+# Query Google Map API  zzzzzzzz (takes time) zzzzzzzz
+gva_renamed_temp <- gva_renamed_temp %>%
+    mutate(lon_lat = geocode(full_address)) %>% 
+        unnest(lon_lat) # unnest since the data returned is df
+    
+# Add census blocks via tigris:: zzzzzzzz (takes time) zzzzzzzz
+incidents_geo_clean <- gva_renamed_temp %>% 
+    mutate(census_block = map2_chr(lon, lat, 
+                               .f = ~call_geolocator_latlon(lon = .x, lat = .y)))
 
 # Save incidents data
 write_rds(incidents_geo_clean, here("data", "incidents.rds"))
+write_csv(incidents_geo_clean, here("data", "incidents.csv"))
