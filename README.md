@@ -7,7 +7,7 @@ Understanding gun violence incidents in Delaware using the Gun Violence Archive 
 .
 ├── r                       # R scripts
 │ ├── clean.R               # Merge and clean csv files, call geocode.r
-│ ├── geocode.R             # Geocoding routine via `censusxy`
+│ ├── geocode.R             # Geocoding routine via Google Maps API
 │ └── getCensus.R           # Pull Delaware census data from Census API
 ├── data                    # data files
 │ ├── [csv files]           # Incidents data manually downloaded from https://www.gunviolencearchive.org/
