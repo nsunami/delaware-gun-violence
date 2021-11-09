@@ -1,0 +1,101 @@
+id,date,state,city_county,address,killed,injured,Operations,full_address,lon,lat,census_block
+480327,2013-02-11T00:00:00Z,Delaware,Wilmington,500 North King St,3,2,N/A,"500 North King St,Wilmington,Delaware",-75.54858779999999,39.740695,100030028002000
+491729,2013-08-10T00:00:00Z,Delaware,Wilmington,1200 block of Second Street,0,4,N/A,"1200 block of Second Street,Wilmington,Delaware",-75.5641124,39.7435325,100030022002004
+495374,2013-12-07T00:00:00Z,Delaware,Wilmington,3421 Kirkwood Hwy,0,4,N/A,"3421 Kirkwood Hwy,Wilmington,Delaware",-75.632584,39.736051,100030120002027
+92357,2014-01-01T00:00:00Z,Delaware,Wilmington,1400 block of West 3rd,1,0,N/A,"1400 block of West 3rd,Wilmington,Delaware",-75.56676399999999,39.74572,100030023001007
+93013,2014-01-04T00:00:00Z,Delaware,Wilmington,2400 block of Carter Street,1,0,N/A,"2400 block of Carter Street,Wilmington,Delaware",-75.53556979999999,39.7527756,100030006021019
+93223,2014-01-04T00:00:00Z,Delaware,Wilmington,2100 block of Washington Street,0,1,N/A,"2100 block of Washington Street,Wilmington,Delaware",-75.542683,39.7550082,100030005003002
+93215,2014-01-05T00:00:00Z,Delaware,Wilmington,NA,0,2,N/A,"NA,Wilmington,Delaware",-75.5483909,39.744655,100030028001069
+94439,2014-01-06T00:00:00Z,Delaware,Dover,McDaniel Dr,0,1,N/A,"McDaniel Dr,Dover,Delaware",-75.52237800000002,39.132235,100010416001008
+94408,2014-01-07T00:00:00Z,Delaware,Wilmington,1500 block of W 5th St,0,1,N/A,"1500 block of W 5th St,Wilmington,Delaware",-75.56660099999999,39.74739,100030023001002
+94419,2014-01-07T00:00:00Z,Delaware,Wilmington,200 block of N Broom St,0,1,N/A,"200 block of N Broom St,Wilmington,Delaware",-75.5666289,39.7446904,100030022003002
+94431,2014-01-07T00:00:00Z,Delaware,Wilmington,1200 block of Forrest Drive,0,0,N/A,"1200 block of Forrest Drive,Wilmington,Delaware",-75.5983577,39.7165669,100030129003015
+95594,2014-01-09T00:00:00Z,Delaware,Magnolia,200 block of Lambert Dr,0,0,N/A,"200 block of Lambert Dr,Magnolia,Delaware",-75.5381481,39.0653742,100010422052026
+109204,2014-01-10T00:00:00Z,Delaware,Wilmington,NA,0,1,N/A,"NA,Wilmington,Delaware",-75.5483909,39.744655,100030028001069
+95581,2014-01-13T00:00:00Z,Delaware,Felton,US 13 and Walnut Shade Rd,0,0,N/A,"US 13 and Walnut Shade Rd,Felton,Delaware",-75.5534929,39.0712555,100010421002066
+97636,2014-01-13T00:00:00Z,Delaware,Wilmington,1300 block of Vandever Ave.,0,1,N/A,"1300 block of Vandever Ave.,Wilmington,Delaware",-75.5308347,39.7455635,100030030021005
+98530,2014-01-13T00:00:00Z,Delaware,Dover,2 Capitol Ave,0,0,N/A,"2 Capitol Ave,Dover,Delaware",-75.4999626,39.1443715,100010412003013
+96780,2014-01-14T00:00:00Z,Delaware,Millsboro,28000 block of Harmons Hill Rd,2,0,N/A,"28000 block of Harmons Hill Rd,Millsboro,Delaware",-75.2479826,38.6550638,100050507012002
+97886,2014-01-16T00:00:00Z,Delaware,Wilmington,26th and Monroe Streets,0,0,N/A,"26th and Monroe Streets,Wilmington,Delaware",-75.5398958,39.7597803,100030003003023
+98555,2014-01-16T00:00:00Z,Delaware,Wilmington,900 block of E. 12th Street,0,0,N/A,"900 block of E. 12th Street,Wilmington,Delaware",-75.53665769999999,39.7436365,100030030021019
+98545,2014-01-17T00:00:00Z,Delaware,Wilmington,200 block of N. Van Buren Street,0,0,N/A,"200 block of N. Van Buren Street,Wilmington,Delaware",-75.5630101,39.7431014,100030022002002
+98532,2014-01-18T00:00:00Z,Delaware,Wilmington,700 block of South Broom Street,1,0,N/A,"700 block of South Broom Street,Wilmington,Delaware",-75.5702202,39.7397902,100030026001008
+98548,2014-01-18T00:00:00Z,Delaware,Wilmington,500 block of Springer Street,0,0,N/A,"500 block of Springer Street,Wilmington,Delaware",-75.5739056,39.7506984,100030024003002
+98543,2014-01-20T00:00:00Z,Delaware,Dover,200 block of N Wilson Dr,0,0,N/A,"200 block of N Wilson Dr,Dover,Delaware",-75.5483737,39.1961164,100010405012030
+100297,2014-01-24T00:00:00Z,Delaware,Wilmington,Harpers Place,0,2,N/A,"Harpers Place,Wilmington,Delaware",-75.6438296,39.6392964,100030163061006
+101162,2014-01-25T00:00:00Z,Delaware,Dover,Division Street and New Street,0,0,N/A,"Division Street and New Street,Dover,Delaware",-75.5294936,39.160842100000004,100010414002001
+102235,2014-01-27T00:00:00Z,Delaware,Felton,700 block of Walnut Shade Rd,0,0,N/A,"700 block of Walnut Shade Rd,Felton,Delaware",-75.5524875,39.07115599999999,100010422052013
+104233,2014-01-30T00:00:00Z,Delaware,Georgetown,U.S. 113 and County Seat Highway,0,0,N/A,"U.S. 113 and County Seat Highway,Georgetown,Delaware",-75.3960507,38.6818381,100050505051040
+105157,2014-02-01T00:00:00Z,Delaware,Wilmington,2100 block of N. Spruce Street,0,0,N/A,"2100 block of N. Spruce Street,Wilmington,Delaware",-75.53536009999999,39.7489167,100030006013003
+105155,2014-02-02T00:00:00Z,Delaware,Dover,800 block of Woodcrest Dr,0,1,N/A,"800 block of Woodcrest Dr,Dover,Delaware",-75.5397562,39.17202030000001,100010433002006
+103866,2014-02-03T00:00:00Z,Delaware,Laurel,Johnson Road,0,0,N/A,"Johnson Road,Laurel,Delaware",-75.4675094,38.5589519,100050517011008
+104228,2014-02-03T00:00:00Z,Delaware,Wilmington,500 block of S. Harrison Street,0,0,N/A,"500 block of S. Harrison Street,Wilmington,Delaware",-75.5664584,39.7396696,100030026002017
+104222,2014-02-04T00:00:00Z,Delaware,Newark,750 East Delaware Avenue,0,0,N/A,"750 East Delaware Avenue,Newark,Delaware",-75.7388752,39.68071380000001,100030145021019
+121973,2014-02-11T00:00:00Z,Delaware,Wilmington,600 N Lincoln Street,0,1,N/A,"600 N Lincoln Street,Wilmington,Delaware",-75.57053549999999,39.7504371,100030014002016
+107556,2014-02-16T00:00:00Z,Delaware,Wilmington,500 block of N. Rodney Street,1,0,N/A,"500 block of N. Rodney Street,Wilmington,Delaware",-75.565924,39.7475788,100030023001000
+110994,2014-02-16T00:00:00Z,Delaware,Wilmington,South Market Street,0,1,N/A,"South Market Street,Wilmington,Delaware",-75.55601089999999,39.7281174,100030019022006
+121980,2014-02-18T00:00:00Z,Delaware,Wilmington,500 N Madison Street,0,1,N/A,"500 N Madison Street,Wilmington,Delaware",-75.5569739,39.7436782,100030021001011
+109921,2014-02-22T00:00:00Z,Delaware,Wilmington,1300 block of Vandever Avenue,0,0,N/A,"1300 block of Vandever Avenue,Wilmington,Delaware",-75.5308347,39.7455635,100030030021005
+109923,2014-02-22T00:00:00Z,Delaware,Wilmington,North Union Street,0,0,N/A,"North Union Street,Wilmington,Delaware",-75.5691317,39.7549307,100030013003027
+121982,2014-02-24T00:00:00Z,Delaware,Wilmington,E 35th and N Church Street,1,0,N/A,"E 35th and N Church Street,Wilmington,Delaware",-75.5243722,39.7561168,100030006011004
+121988,2014-03-04T00:00:00Z,Delaware,Wilmington,700 N Pine Street,0,1,N/A,"700 N Pine Street,Wilmington,Delaware",-75.543598,39.7401359,100030029004010
+121993,2014-03-06T00:00:00Z,Delaware,Wilmington,1200 Lancaster Avenue,0,1,N/A,"1200 Lancaster Avenue,Wilmington,Delaware",-75.565017,39.742785,100030026003003
+121997,2014-03-07T00:00:00Z,Delaware,Wilmington,2100 N Jefferson Street,0,1,N/A,"2100 N Jefferson Street,Wilmington,Delaware",-75.54331979999999,39.7558377,100030004002013
+115105,2014-03-14T00:00:00Z,Delaware,Wilmington,West 23rd Street,0,1,N/A,"West 23rd Street,Wilmington,Delaware",-75.542078,39.7577335,100030004002002
+118125,2014-03-23T00:00:00Z,Delaware,Newark,17 New London Rd,0,0,N/A,"17 New London Rd,Newark,Delaware",-75.7568403,39.68345,100030143022011
+118222,2014-03-23T00:00:00Z,Delaware,Wilmington,1030 S. Market St.,0,1,N/A,"1030 S. Market St.,Wilmington,Delaware",-75.5551597,39.7216675,100030154001001
+118541,2014-03-24T00:00:00Z,Delaware,Seaford,23000 block of East Middlecord Circle,0,0,N/A,"23000 block of East Middlecord Circle,Seaford,Delaware",-75.5522524,38.6594711,100050504073001
+119326,2014-03-27T00:00:00Z,Delaware,Wilmington,600 Naamans Road,0,1,N/A,"600 Naamans Road,Wilmington,Delaware",-75.4456566,39.8128758,100030101051007
+121951,2014-03-27T00:00:00Z,Delaware,Talleyville,4800 block of Governor Printz Boulevard,0,1,N/A,"4800 block of Governor Printz Boulevard,Talleyville,Delaware",-75.51677149999999,39.7531968,100030107041016
+120067,2014-03-29T00:00:00Z,Delaware,Middletown,2111 Dupont Hwy,0,1,N/A,"2111 Dupont Hwy,Middletown,Delaware",-75.53331039999999,39.1205754,100010416001034
+121975,2014-03-30T00:00:00Z,Delaware,Claymont,200 block of Harbor Drive,0,0,N/A,"200 block of Harbor Drive,Claymont,Delaware",-75.4611097,39.7959667,100030101041049
+121942,2014-03-31T00:00:00Z,Delaware,Wilmington,6th and Madison Streets,0,1,N/A,"6th and Madison Streets,Wilmington,Delaware",-75.55601589999999,39.7447513,100030016002006
+121616,2014-04-02T00:00:00Z,Delaware,Wilmington,East 28th Street and Claymont Street,1,0,N/A,"East 28th Street and Claymont Street,Wilmington,Delaware",-75.52593519999999,39.7501986,100030030022022
+121905,2014-04-02T00:00:00Z,Delaware,Dover,S State Street,0,1,N/A,"S State Street,Dover,Delaware",-75.5202848,39.1329273,100010416001008
+121913,2014-04-02T00:00:00Z,Delaware,Wilmington,Eighth and Pine Streets,0,1,N/A,"Eighth and Pine Streets,Wilmington,Delaware",-75.55068589999999,39.74459450000001,100030028001054
+121613,2014-04-03T00:00:00Z,Delaware,Wilmington,Elm and South Harrison,1,0,N/A,"Elm and South Harrison,Wilmington,Delaware",-75.56569089999999,39.7412155,100030026003012
+121619,2014-04-03T00:00:00Z,Delaware,Dover,100 block of Spruance Road,0,1,N/A,"100 block of Spruance Road,Dover,Delaware",-75.50959879999999,39.1690248,100010410001024
+123307,2014-04-08T00:00:00Z,Delaware,Wilmington Manor,1600 New Jersey Avenue,0,2,N/A,"1600 New Jersey Avenue,Wilmington Manor,Delaware",-75.58216279999999,39.6933038,100030152001009
+123969,2014-04-08T00:00:00Z,Delaware,Newark,S Chapel Street,0,0,N/A,"S Chapel Street,Newark,Delaware",-75.7443401,39.6787033,100030145021022
+123983,2014-04-08T00:00:00Z,Delaware,New Castle,1627 New Jersey Ave,0,3,N/A,"1627 New Jersey Ave,New Castle,Delaware",-75.5811137,39.6936295,100030152001007
+127165,2014-04-09T00:00:00Z,Delaware,Milford,100 block of Montgomery Street,0,1,N/A,"100 block of Montgomery Street,Milford,Delaware",-75.4259288,38.9123083,100050501043021
+127225,2014-04-11T00:00:00Z,Delaware,Claymont,Everett Ave,0,1,N/A,"Everett Ave,Claymont,Delaware",-75.45308039999999,39.8076342,100030101051018
+125876,2014-04-13T00:00:00Z,Delaware,Wilmington,West 25th and Washington,0,1,N/A,"West 25th and Washington,Wilmington,Delaware",-75.53897649999999,39.7568542,100030003002012
+125874,2014-04-14T00:00:00Z,Delaware,Wilmington,W. 2nd and N. Van Buren streets,0,1,N/A,"W. 2nd and N. Van Buren streets,Wilmington,Delaware",-75.5630138,39.7430963,100030022002002
+127169,2014-04-18T00:00:00Z,Delaware,Wilmington,400 block of W 31st Street,0,1,N/A,"400 block of W 31st Street,Wilmington,Delaware",-75.5341035,39.7606017,100030002006019
+127175,2014-04-20T00:00:00Z,Delaware,Wilmington,500 block of Clayton Street,0,1,N/A,"500 block of Clayton Street,Wilmington,Delaware",-75.56739069999999,39.7480306,100030023002000
+130022,2014-04-21T00:00:00Z,Delaware,Dover,145 Haman Dr,0,0,N/A,"145 Haman Dr,Dover,Delaware",-75.5409986,39.1359423,100010415001027
+130009,2014-04-22T00:00:00Z,Delaware,New Castle,3100 block of New Castle Ave,1,0,N/A,"3100 block of New Castle Ave,New Castle,Delaware",-75.5492357,39.7078558,100030155021021
+129920,2014-04-24T00:00:00Z,Delaware,Dover,12th and Melrose,1,0,N/A,"12th and Melrose,Dover,Delaware",-75.5246209,39.1581479,100010413002010
+129277,2014-04-25T00:00:00Z,Delaware,Wilmington,3100 New  Castle,1,0,N/A,"3100 New  Castle,Wilmington,Delaware",-75.5492357,39.7078558,100030155021021
+129996,2014-04-27T00:00:00Z,Delaware,Wilmington,2700 block of Lancaster Avenue,0,1,N/A,"2700 block of Lancaster Avenue,Wilmington,Delaware",-75.5825462,39.74985840000001,100030122001002
+130000,2014-04-27T00:00:00Z,Delaware,Elsmere,2110 Kirkwood Highway,0,0,N/A,"2110 Kirkwood Highway,Elsmere,Delaware",-75.6098045,39.737956,100030124004005
+131789,2014-04-28T00:00:00Z,Delaware,Lewes,33000 block of Camilla Drive,0,0,N/A,"33000 block of Camilla Drive,Lewes,Delaware",-75.1607319,38.7039488,100050510151014
+131018,2014-04-30T00:00:00Z,Delaware,Dover,700 block of North West Street,0,0,N/A,"700 block of North West Street,Dover,Delaware",-75.5369486,39.1702155,100010433003005
+131865,2014-04-30T00:00:00Z,Delaware,Wilmington,Sherman and Lombard Streets,0,0,N/A,"Sherman and Lombard Streets,Wilmington,Delaware",-75.54425359999999,39.7408372,100030029004007
+131863,2014-05-01T00:00:00Z,Delaware,Wilmington,East 24th and Market Streets,1,0,N/A,"East 24th and Market Streets,Wilmington,Delaware",-75.54844299999999,39.744398,100030028001069
+131867,2014-05-01T00:00:00Z,Delaware,Wilmington,200 block of North Rodney Street,0,0,N/A,"200 block of North Rodney Street,Wilmington,Delaware",-75.5675954,39.7452958,100030023001007
+133508,2014-05-01T00:00:00Z,Delaware,Seaford,24000 Jewell St,0,0,N/A,"24000 Jewell St,Seaford,Delaware",-75.545664,38.6487913,100050504081005
+131856,2014-05-04T00:00:00Z,Delaware,Newark,15 Fox Hall,0,1,N/A,"15 Fox Hall,Newark,Delaware",-75.7029565,39.7163155,100030136113000
+132483,2014-05-05T00:00:00Z,Delaware,Wilmington,400 block West 25th Street,0,1,N/A,"400 block West 25th Street,Wilmington,Delaware",-75.53997509999999,39.7579137,100030003002006
+132827,2014-05-06T00:00:00Z,Delaware,Wilmington,1000 block of South Market Street,0,1,N/A,"1000 block of South Market Street,Wilmington,Delaware",-75.5551902,39.7228685,100030154001001
+132831,2014-05-06T00:00:00Z,Delaware,Dover,1210 White Oak Road,0,0,N/A,"1210 White Oak Road,Dover,Delaware",-75.507032,39.171328,100010410001021
+132836,2014-05-06T00:00:00Z,Delaware,Dover,1019 Walker Road,0,0,N/A,"1019 Walker Road,Dover,Delaware",-75.5474578,39.1702787,100010407002001
+134130,2014-05-08T00:00:00Z,Delaware,Wilmington,East 10th and North Spruce Streets,1,0,N/A,"East 10th and North Spruce Streets,Wilmington,Delaware",-75.5404357,39.74251350000001,100030009001012
+134135,2014-05-08T00:00:00Z,Delaware,Wilmington,1600 block of West Fifth Street,0,1,N/A,"1600 block of West Fifth Street,Wilmington,Delaware",-75.5681639,39.748089,100030023002002
+134140,2014-05-08T00:00:00Z,Delaware,Seaford,Sussex Avenue and Stein Highway,0,0,N/A,"Sussex Avenue and Stein Highway,Seaford,Delaware",-75.632910999999993,38.6448341,100050504052028
+227394,2014-05-08T00:00:00Z,Delaware,Dover,6 W. Lebanon Road,0,0,N/A,"6 W. Lebanon Road,Dover,Delaware",-75.51620550000001,39.1173176,100010417021004
+134128,2014-05-09T00:00:00Z,Delaware,New Castle,50 block of Chaddwyck Blvd,0,0,N/A,"50 block of Chaddwyck Blvd,New Castle,Delaware",-75.62633249999999,39.6349745,100030163082001
+134927,2014-05-12T00:00:00Z,Delaware,Bear,200 block of Deep Creek Terrace,0,2,N/A,"200 block of Deep Creek Terrace,Bear,Delaware",-75.6612884,39.6508684,100030149071011
+136554,2014-05-13T00:00:00Z,Delaware,Wilmington,300 block of Linden Street,0,0,N/A,"300 block of Linden Street,Wilmington,Delaware",-75.5708339,39.7425688,100030025001004
+136811,2014-05-14T00:00:00Z,Delaware,Wilmington,610 East 17th Street,0,0,N/A,"610 East 17th Street,Wilmington,Delaware",-75.5372003,39.7488896,100030006022007
+136841,2014-05-14T00:00:00Z,Delaware,Wilmington,1800 block of West Third Street,0,0,N/A,"1800 block of West Third Street,Wilmington,Delaware",-75.57127919999999,39.7476352,100030023003009
+135215,2014-05-15T00:00:00Z,Delaware,Wilmington,400 Claymont Street,0,1,N/A,"400 Claymont Street,Wilmington,Delaware",-75.54165019999999,39.7295007,100030019021020
+136820,2014-05-16T00:00:00Z,Delaware,Wilmington,500 block of North Broom Street,0,1,N/A,"500 block of North Broom Street,Wilmington,Delaware",-75.56500299999999,39.747058,100030022001004
+136833,2014-05-17T00:00:00Z,Delaware,Dover,New Castle Avenue and East Water Street,0,1,N/A,"New Castle Avenue and East Water Street,Dover,Delaware",-75.5144286,39.1551865,100010413001012
+136571,2014-05-18T00:00:00Z,Delaware,Dover,200 block of Presidents Drive,0,0,N/A,"200 block of Presidents Drive,Dover,Delaware",-75.5045963,39.1416847,100010412003015
+136562,2014-05-19T00:00:00Z,Delaware,Selbyville,NA,2,0,N/A,"NA,Selbyville,Delaware",-75.2207437,38.4603917,100050514003046
+136576,2014-05-19T00:00:00Z,Delaware,Harrington,2000 block of Bloomfield Drive,0,1,N/A,"2000 block of Bloomfield Drive,Harrington,Delaware",-75.4998635,38.9365536,100010429002021
+139552,2014-05-22T00:00:00Z,Delaware,Wilmington,500 block of North Jefferson Street,1,0,N/A,"500 block of North Jefferson Street,Wilmington,Delaware",-75.5555768,39.7433308,100030021001003
+140469,2014-05-25T00:00:00Z,Delaware,Dover,North New and Division Streets,0,1,N/A,"North New and Division Streets,Dover,Delaware",-75.5294936,39.160842100000004,100010414002001
+140891,2014-05-26T00:00:00Z,Delaware,Camden,7000 block of Willow Grove Road,1,0,N/A,"7000 block of Willow Grove Road,Camden,Delaware",-75.5656037,39.1015704,100010417011046
