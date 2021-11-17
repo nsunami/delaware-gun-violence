@@ -20,12 +20,15 @@ incidents_raw <- incidents_raw %>%
     mutate(full_address = paste(address, city_county, state, sep = ", "))
 
 # Query Google Map API  zzzzzzzz (takes time) zzzzzzzz
-tic()
-incidents_raw <- incidents_raw %>%
-    mutate(lon_lat = geocode(full_address)) %>% 
-        unnest(lon_lat) # unnest since the data returned is df
-cat("Google Map API Time:")
-toc()
+# 1003.261 sec elapsed for 2804 rows (17 minutes for 3k rows)
+# tic()
+# incidents_raw <- incidents_raw %>%
+#     mutate(lon_lat = geocode(full_address)) %>% 
+#         unnest(lon_lat) # unnest since the data returned is df
+# cat("Google Map API Time:")
+# toc()
+incidents_raw <- read_rds(here("data", "incidents_lat_lon.rds"))
+write_rds(incidents_raw, here("data", "incidents_lat_lon.rds"))
 
 # Add census blocks via tigris:: zzzzzzzz (takes time) zzzzzzzz
 tic()
