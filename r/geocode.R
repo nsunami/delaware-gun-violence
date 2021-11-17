@@ -32,10 +32,14 @@ write_rds(incidents_raw, here("data", "incidents_lat_lon.rds"))
 
 # Add census blocks via tigris:: zzzzzzzz (takes time) zzzzzzzz
 tic()
-incidents_clean <- incidents_raw %>% 
+rate <- rate_backoff(pause_base = 5, pause_cap = 300, max_times = 10)
+insistent_latlon <- insistently(~ call_geolocator_latlon(lon = .x, lat = .y),
+                                rate = rate)
+incidents_clean <- incidents_raw %>%
+    head(10) %>%
     mutate(census_block = map2_chr(lon, lat, 
-                               .f = ~call_geolocator_latlon(lon = .x, lat = .y)))
-cat("Google Map API Time:")
+                                   .f = ~insistent_latlon(lon = .x, lat = .y)))
+cat("tigris/Census API Time:")
 toc()
 
 # Save incidents data
